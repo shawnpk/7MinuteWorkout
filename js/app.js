@@ -15,4 +15,6 @@ angular.module('app', ['ngRoute', '7minWorkout'])
       .otherwise({
         redirectTo: '/start'
       });
+
+    $locationProvider.html5Mode(true);
   });
